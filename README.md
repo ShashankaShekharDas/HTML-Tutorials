@@ -9,3 +9,9 @@ I havent written the basics about the structure of webpages, some basic tags lik
 
 
 Cheers
+
+#Done for 100DaysOfCode
+
+Day 1: Text1,text2,list,links,images,project1
+
+Day2: Tables
