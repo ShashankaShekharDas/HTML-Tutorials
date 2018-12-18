@@ -1,0 +1,85 @@
+<html>
+
+    <head>
+    
+        <title>Tables</title>
+        
+    </head>
+
+    <body>
+    
+        
+        <h1>Table 1</h1>
+        <table width="400" cellpadding="10" cellspacing="5">
+        
+            <tr>                    <!-- tr stands for table row --->
+                <th></th>           <!-- th stands for table header, if scope not specified it is for column -->
+                <th>Saturday</th>   
+                <th>Sunday</th>
+                <th>Monday</th>
+            </tr>
+            
+            <tr>
+            
+                <th scope="row">Classes</th>
+                <td>1</td>                  <!--td stands for table data -->
+                <td>2</td>
+                <td>3</td>
+                
+            </tr>
+            
+            <tr>
+            
+                <th scope="row">Hours</th>
+                <td>2</td>
+                <td>4</td>
+                <td>6</td>
+            
+            </tr>
+        
+        
+        </table>
+        
+        
+        <h1>Table 2</h1>
+        
+        <table border="2" bgcolor="#efefef">
+        
+            <tr>
+            
+                <th>ABCD</th>
+                <th>BCDE</th>
+                <th>CDEF</th>
+            
+            </tr>
+            
+            <tr>
+            
+                <td colspan="2">1</td>    <!--Colspan merges the n columns and takes 1 input for it -->
+                <td>2</td>
+                
+            </tr>
+            
+            <tr>
+            
+                <td rowspan="2">3</td>   <!--Rowspan merges cells vertically -->
+                <td>4</td>
+                <td>5</td>
+            
+            </tr>
+            
+            <tr>
+            
+                <td>6</td>
+                <td>7</td>
+            
+            </tr>
+        
+        </table>
+    
+        <br>
+        
+        <i>For a big table with many headers. We use thead tag, tbody tag and tfoot tag to seperate the parts. There is no difference in using or not using those tags.</i>
+    </body>
+
+</html>
