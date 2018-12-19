@@ -1,0 +1,96 @@
+<html>
+
+    <head>
+    
+        <title>Forms</title>
+    
+    </head>
+
+
+    <body>
+    
+        <form action="https://www.facebook.com" method="get"> 
+            
+            <!-- action specifies where the page will go when you press send, there are two methods to send data get and post. GET sends data through the url and post through HTTP headers -->
+            
+            
+            Username:<input type="text" name="username" size="15" maxlength="30">
+            <br>Password:&nbsp;<input type="password" name="pass" size="15">
+            <br>
+            What do you think of this page?<br>
+            <textarea name="comment" cols="20" rows="4">Enter your comments</textarea>
+        
+            <br>
+            
+                Enter your gender:<br>
+            Male<input type="radio" name="gender" value="Male">
+            Female<input type="radio" name="gender" value="Female">
+            
+            <br>
+            
+                Which sports do you watch?<br>
+            
+            <input type="checkbox" value="cricket">Cricket
+            <input type="checkbox" value="football">Football
+            <input type="checkbox" value="baseball">Baseball
+        
+        </form>
+        
+        
+        <form>
+        
+            <input type="checkbox" id="agree" />
+            
+            <label for="agree">I agree with the Terms and Conditions</label>  <!--Not using Label usually imparts no difference to the code but "HTML is not about presentation. It is a way of describing data." -->
+        
+            <br>
+            
+            <label>
+            
+                Test <input type="text">
+            
+            </label>
+            
+            <fieldset>
+            
+                <legend>Contact Details</legend>
+            
+                <label>Email<input type="text"></label><br>
+                
+                <label>Mobile<input type="text"></label>
+                
+            </fieldset>
+            
+        </form>
+        
+        <form>
+        
+            Username:<input type="text" required="required">
+        
+            <input type="submit">
+            
+        </form>
+        
+        
+        
+        <!-- email, url, search type input --->
+        
+        
+        
+        
+        <form>
+        
+            Email<input type="email">
+            <br>Url<input type="url">
+            <br>Search<input type="search">
+            <input type="submit">
+            
+        
+        </form>
+        
+    
+        
+        
+    </body>
+
+</html>
