@@ -14,4 +14,4 @@ Cheers
 
 Day 1: Text1,text2,list,links,images,project1
 
-Day2: Tables
+Day2: Tables,Forms
